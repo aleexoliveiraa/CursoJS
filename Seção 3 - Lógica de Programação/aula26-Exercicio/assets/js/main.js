@@ -7,7 +7,7 @@ function meuEscopo () {
         //Evitando que a página recarregue
         evento.preventDefault();
 
-        //Capturando os valores no ofrmulário e convertendo
+        //Capturando os valores no formulário e convertendo
         const peso = form.querySelector('#peso').value;
         const altura = Number(form.querySelector('#altura').value);
 
