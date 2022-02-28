@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel, Tesoura</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pedra Papel Tesoura</h1>
+    </header>
+    <section class="pontuacao">
+        <div class="pontos" id="pontos-jogador">jogador</div>
+        <div class="pontos" id="pontos-computador">computador</div>
+        <span id="pontuacao-jogador">0</span>:<span id="pontuacao-computador">0</span>
+    </section>
+    <section id="resultado">
+        <p></p>
+    </section>
+    <section id="" class="opcoes">
+        <div id="pedra" class="opcao" onclick="jogada(0)">
+            <img src="assets/images/pedra.svg" alt="pedra">
+        </div>
+
+        <div id="papel" class="opcao" onclick="jogada(1)">
+            <img src="assets/images/papel.svg" alt="papel">
+        </div>
+
+        <div id="tesoura" class="opcao" onclick="jogada(2)">
+            <img src="assets/images/tesoura.svg" alt="tesoura">
+        </div>
+    </section>
+    <p id="mensagem-acao">Faça sua jogada!</p>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -16,3 +16,4 @@ if (verdadeira) {
     }
 }
 console.log('Escopo Global 02', nome, nome2);
+
