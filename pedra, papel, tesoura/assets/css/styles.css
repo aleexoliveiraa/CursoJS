@@ -72,8 +72,11 @@ header h1 {
 }
 
 .opcao {
+    width: 100px;
+    height: 100px;
     text-align: center;
     display: inline-block;
+    padding-top: 13px;
     border: 4px solid #02735E;
     margin: 0px 30px;
     border-radius: 50%;
@@ -86,7 +89,7 @@ header h1 {
 }
 
 .opcao img {
-    width: 100px;
+    width: 60px;
 }
 
 #mensagem-acao {
